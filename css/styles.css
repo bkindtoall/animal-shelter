@@ -1,5 +1,5 @@
 .column {
-  width: 400px;
+  width: 30%;
   float: left;
   background-color: chartreuse;
   margin: 12px;
@@ -33,6 +33,11 @@ h1 {
   body {
     background-color: black;
     color: white;
+  }
+}
+@media screen and (max-width: 699px) and (min-width: 481px) {
+  body {
+    background-color: pink;
   }
 }
 
